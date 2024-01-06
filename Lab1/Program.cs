@@ -91,10 +91,9 @@ class MatrixMultiplication
 
     static void Main()
     {
-        Console.WriteLine("start");
 
-        int n = 1000; // Количество строк в матрице A
-        int m = 1000; // Количество столбцов в матрице B
+        int n = 500; // Количество строк в матрице A
+        int m = 500; // Количество столбцов в матрице B
         int[,] matrixA = new int[n, m]; // Создание матрицы A размерности n x m
         int[,] matrixB = new int[m, n]; // Создание матрицы B размерности m x n
 
